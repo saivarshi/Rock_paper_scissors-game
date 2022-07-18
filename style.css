@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+#selection{
+    background-color:gainsboro;
+    text-align: center;
+    font-family: cursive;
+    border: 3px solid rgba(0, 0, 0, 0.496);
+    width: 500px;
+    height: 300px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 200px;
+    line-height: 70px;
+    border-radius: 10px;   
+}
+.choice{
+    letter-spacing: 5px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+}
+.choice:hover{
+    color: white;
+    background-color: black;
+}
